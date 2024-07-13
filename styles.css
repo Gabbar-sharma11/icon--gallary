@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;}
+body{
+    width: 100%;
+
+}
+header{
+    width: 100%;
+    background-color: aqua;
+    padding: 10px 0;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+main{
+    
+    width: 1120px;
+
+}
+ 
+.icon-gallery {
+    
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+
+    margin-top: 50px;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: transform 0.3s;
+    font-size: 10rem;
+    color: blue;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+.instagram{
+    color: red;
+    
+}
+.whatsapp{
+    color: rgb(27, 234, 27);
+}
